@@ -1,0 +1,26 @@
+package de.nilsbtr.klasse12.dstrukturen.weitere;
+
+import de.nilsbtr.klasse12.dstrukturen.Queue;
+
+public class Schlange {
+    Queue<Integer> zahlen = new Queue<>();
+
+    public void zahlenSchlange(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            zahlen.enqueue(Integer.parseInt("" + s.charAt(i)));
+        }
+    }
+
+    public void zahlenSchlangezuInt(Queue<Integer> z) {
+        String s = "";
+
+        while (!z.isEmpty()) {
+            s += z.front();
+            z.dequeue();
+        }
+
+        int a = Integer.parseInt(s);
+
+        System.out.println(a);
+    }
+}
