@@ -1,7 +1,6 @@
 package de.nilsbtr.klasse11.shapes;
 
 import java.awt.*;
-import java.awt.Canvas;
 
 public class Triangle {
     private int height;
@@ -133,7 +132,7 @@ public class Triangle {
 
     private void draw() {
         if (isVisible) {
-            java.awt.Canvas canvas = java.awt.Canvas.getCanvas();
+            Canvas canvas = Canvas.getCanvas();
             int[] xpoints = { xPosition, xPosition + (width / 2), xPosition - (width / 2) };
             int[] ypoints = { yPosition, yPosition + height, yPosition + height };
             canvas.draw(this, color, new Polygon(xpoints, ypoints, 3));
@@ -145,7 +144,7 @@ public class Triangle {
 
     private void erase() {
         if (isVisible) {
-            java.awt.Canvas canvas = Canvas.getCanvas();
+            Canvas canvas = Canvas.getCanvas();
             canvas.erase(this);
         }
     }

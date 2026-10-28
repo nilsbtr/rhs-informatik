@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse12;
+
 public class Teiler {
     public int groessterTeiler(int a, int b) {
         int x = 1;

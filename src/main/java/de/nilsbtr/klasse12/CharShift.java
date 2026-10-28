@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse12;
+
 import java.util.Scanner;
 
 public class CharShift {

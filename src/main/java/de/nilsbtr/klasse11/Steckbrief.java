@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse11;
+
 public class Steckbrief {
     private int alter;
     private double größe;

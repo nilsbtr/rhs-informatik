@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse12;
+
 public class Sotieren {
     public String buchstabenSotieren(char a, char b, char c) {
         String s = "";

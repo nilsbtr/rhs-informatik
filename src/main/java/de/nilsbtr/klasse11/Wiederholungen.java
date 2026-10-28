@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse11;
+
 public class Wiederholungen {
     public int x;
     public int i;

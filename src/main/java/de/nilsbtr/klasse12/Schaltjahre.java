@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse12;
+
 public class Schaltjahre {
 
     private boolean abfrageSchaltjahr(int x) {

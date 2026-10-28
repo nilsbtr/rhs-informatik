@@ -1,7 +1,6 @@
 package de.nilsbtr.klasse11.shapes;
 
 import java.awt.*;
-import java.awt.Canvas;
 
 public class Square {
     private int size;
@@ -129,7 +128,7 @@ public class Square {
 
     private void draw() {
         if (isVisible) {
-            java.awt.Canvas canvas = java.awt.Canvas.getCanvas();
+            Canvas canvas = Canvas.getCanvas();
             canvas.draw(this, color,
                     new Rectangle(xPosition, yPosition, size, size));
             canvas.wait(10);
@@ -140,7 +139,7 @@ public class Square {
 
     private void erase() {
         if (isVisible) {
-            java.awt.Canvas canvas = Canvas.getCanvas();
+            Canvas canvas = Canvas.getCanvas();
             canvas.erase(this);
         }
     }

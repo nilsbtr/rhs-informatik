@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse12;
+
 public class Tauschen {
     public String tauscheBuchstaben(String input) {
         String s = "";

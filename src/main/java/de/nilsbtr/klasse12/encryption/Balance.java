@@ -1,6 +1,6 @@
 package de.nilsbtr.klasse12.encryption;
 
-import dstrukturen.Queue;
+import de.nilsbtr.klasse12.dstrukturen.Queue;
 
 public class Balance {
     public String pushDuplicates1(String k) {

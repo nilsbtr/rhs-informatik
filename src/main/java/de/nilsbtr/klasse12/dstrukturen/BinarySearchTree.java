@@ -1,6 +1,6 @@
 package de.nilsbtr.klasse12.dstrukturen;
 
-import dstrukturen.suchbaum.ComparableContent;
+import de.nilsbtr.klasse12.dstrukturen.suchbaum.ComparableContent;
 
 /**
  * <p>

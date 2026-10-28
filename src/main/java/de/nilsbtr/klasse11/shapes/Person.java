@@ -1,7 +1,6 @@
 package de.nilsbtr.klasse11.shapes;
 
 import java.awt.*;
-import java.awt.Canvas;
 
 public class Person {
     private int height;
@@ -138,7 +137,7 @@ public class Person {
         int x = xPosition;
         int y = yPosition;
         if (isVisible) {
-            java.awt.Canvas canvas = java.awt.Canvas.getCanvas();
+            Canvas canvas = Canvas.getCanvas();
             int[] xpoints = { x - 3, x - hw, x - hw, x - (int) (hw * 0.2) - 1, x - (int) (hw * 0.2) - 1, x - hw,
                     x - hw + (int) (hw * 0.4) + 1, x, x + hw - (int) (hw * 0.4) - 1, x + hw, x + (int) (hw * 0.2) + 1,
                     x + (int) (hw * 0.2) + 1, x + hw, x + hw, x + 3, x + (int) (hw * 0.6),
@@ -156,7 +155,7 @@ public class Person {
 
     private void erase() {
         if (isVisible) {
-            java.awt.Canvas canvas = Canvas.getCanvas();
+            Canvas canvas = Canvas.getCanvas();
             canvas.erase(this);
         }
     }

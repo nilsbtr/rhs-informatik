@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse11;
+
 import java.util.Scanner;
 
 public class Zähler {

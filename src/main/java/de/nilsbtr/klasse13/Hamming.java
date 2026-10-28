@@ -1,4 +1,6 @@
-import dstrukturen.DynArray;
+package de.nilsbtr.klasse13;
+
+import de.nilsbtr.klasse13.dstrukturen.DynArray;
 
 public class Hamming {
     private char xOR(char a, char b) {

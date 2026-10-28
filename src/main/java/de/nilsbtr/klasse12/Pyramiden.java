@@ -1,3 +1,5 @@
+package de.nilsbtr.klasse12;
+
 public class Pyramiden {
     public static void main(String[] args) {
         Pyramiden p = new Pyramiden();

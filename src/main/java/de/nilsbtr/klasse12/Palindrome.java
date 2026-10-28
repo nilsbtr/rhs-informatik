@@ -1,4 +1,6 @@
-import dstrukturen.Stack;
+package de.nilsbtr.klasse12;
+
+import de.nilsbtr.klasse12.dstrukturen.Stack;
 
 public class Palindrome {
 
